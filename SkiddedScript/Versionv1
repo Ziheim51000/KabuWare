@@ -1,0 +1,116 @@
+
+[--> MonkeyVio Made This <--]
+
+
+
+--[[
+
+getgenv().RegisterKey = ""
+
+                                    
+ █▄▀ ▄▀█ █▄▄ █░█ █░█░█ ▄▀█ █▀█ █▀▀
+ █░█ █▀█ █▄█ █▄█ ▀▄▀▄▀ █▀█ █▀▄ ██▄
+
+  
+]]
+
+
+-- this script is so bad 
+
+-- can be decent ig if u need fps boost
+
+-- join my priv server for all my scripts + keys to them
+
+local KabuWare = {
+    ["Options"] = {
+        ["Preformance"] = {
+            ["RemoveBulletDelay"] = false, --// removes bulletpackages, causing your bullets to have less delay, if your ping is above 200+ this wont take much affect.
+            ["RemoveFFlags"] = true, --// can boost fps, and lower ping idk
+            ["RemoveGraphics"] = false, --// the game is gonna look like playdough but you can easily get 30+ fps
+            ["RemoveEffects"] = true, --// blood effects, etc and if a avatar has effects it will also remove them
+            ["RemoveF9Console"] = false, --// completely removes the f9 console,
+            ['RemoveRecoil'] = true,
+            ["UncapFPS"] = true --// sets the fps cap to 0 meaning you can get above 60 frames
+          },
+        ["Autoclicker"] = { 
+           ["Enabled"] = false,
+           ['Keybind'] = Enum.KeyCode.V
+           ['CPS'] = 999,
+          },
+        ["Movement"] = { 
+           ['Speed'] = false,
+           ['SpeedKey'] = Enum.KeyCode.Z
+           ['SpeedMethod'] = "Cframe" --// Walkspeed, Cframe, TP )
+          },
+           ['Flight'] = false,
+           ['FlightKey'] = Enum.KeyCode.X
+           ['FlightMethod'] = "Roblox"
+          },
+},
+
+    ["Aiming"] = {
+        ["Main"] = {
+             ['Keybind'] = Enum.KeyCode.Q
+             ['Prediction'] = 0.142
+             ['JumpOffset'] = -0.037
+             ['Aimpart'] = "HumanoidRootPart"
+},           ['Notifications'] = true,
+        },
+        ["Prediction"] = {
+}            ["Distances"] = {
+                ['Far'] = 60,
+                ['Medium'] = 30
+                ['Close'] = 10
+                ['SuperClose'] = 4
+            },
+            ["AutoPrediction"] = {
+                ["Enabled"] = false,
+                ["Sets"] = {
+                        ["[30]"] = 0.11,
+}                       ["[40]"] = 0.1256,
+                        ["[50]"] = 0.112,
+                        ["[60]"] = 0.1335,
+                        ["[70]"] = 0.131,
+                        ["[80]"] = 0.132,
+                        ["[90]"] = 0.136,
+                        ["[105]"] = 0.138,
+                        ["[110]"] = 0.146,
+                        ["[120]"] = 0.149,
+                        ["[130]"] = 0.151,
+                        ["[140]"] = 0.153
+},
+     ["Aiming"] = {
+        ["Visuals"] = {
+            ['ShowDot'] = true,
+            ['ShowBox'] = false,
+    }
+       },
+    ["Visuals"] = {
+        ["Config"] = {
+            ['DotColor'] = Color3.fromRGB = ("255, 69, 255")
+            ['DotSize'] = Vector3.new (4, 2, 4)
+          },
+            ['BoxColor'] = Color3.fromRGB = ("144, 69, 255")
+            ['BoxSize'] = Vector3.new (8, 7, 9)
+},
+    ["Textures"] = {
+        ["Enabled"] = true,
+        ['MaterialID'] = ""
+            ["MaterialsIDS"] = {
+                    ["CustomTextures"] = {
+                    ["Wood"]
+                    ["WoodPlanks"]
+                    ["Brick"]
+                    ["Cobblestone"]
+                    ["Concrete"]
+                    ["DiamondPlate"]
+                    ["Fabric"]
+                    ["Granite"]
+                    ["Grass"]
+                    ["Ice"]
+                    ["Marble"]
+                    ["Metal"]
+                    ["Sand"]
+                }
+            }
+ },
